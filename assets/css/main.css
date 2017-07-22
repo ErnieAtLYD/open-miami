@@ -1,0 +1,298 @@
+
+ /** Project Name: Bolt - Free Bootstrap 3 Theme*/
+ /** Version: 1.0*/
+ /** URL: http://blacktie.co*/
+ /*
+
+/* FONTS */
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,700,900);
+
+/* OVERALL ASPECT */
+
+body {
+  background-color: #f2f2f2;
+    font-family: "Raleway", "Lato";
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+
+    margin-top: 70px;
+}
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway";
+    font-weight: 700;
+    color: #333;
+}
+
+
+/* Paragraph & Typographic */
+p {
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+
+.centered {
+    text-align: center;
+}
+
+.mt {
+	margin-top: 40px;
+}
+
+/* Links */
+a {
+    color: #f85c37;
+    word-wrap: break-word;
+
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover,
+a:focus {
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+/* Bootstrap Modifications */
+ hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+.navbar {
+	font-weight: 800;
+	font-size: 14px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	background-color: #ffffff;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color: #ffffff;
+	background-color: #74cfae;
+}
+
+.navbar-brand {
+	font-size: 60px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.btn-theme {
+  color: #000000;
+  background-color:rgb(255,249,82);
+	border-color: transparent;
+}
+
+.btn {
+  padding: 4px 30px;
+  margin-bottom: 0;
+  font-size: 18px;
+  font-weight: 600;
+  border: 5px solid transparent;
+  border-radius: 5px;
+}
+
+.lead {
+	letter-spacing: 1px;
+}
+
+/* WRAP SECTIONS */
+
+/* hello */
+#hello {
+	width: 100%;
+	padding-top: 100px;
+	padding-bottom: 100px;
+  background-size: cover;
+  background-image: url("../img/lance-asper-188744.jpg");
+  background-color: whitesmoke;
+  background-blend-mode: overlay;
+}
+
+#hello h1 {
+	font-size: 85px;
+	font-weight: 900;
+	letter-spacing: 3px;
+  color: rgb(105,225,235);
+}
+
+#hello h2 {
+	/*color: #c0c0c0;*/
+  color: black;
+	font-weight: 400;
+}
+
+/*Mission*/
+#mission {
+	background-color: rgb(105,225,235);
+	padding-top: 50px;
+	margin-bottom: 0px;
+}
+
+#mission h2 {
+	color: white;
+	font-weight: 700;
+	margin-bottom: 35px;
+}
+
+#mission p {
+	color: white;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.text-line{
+background-color: #ffffff;
+width: 15%;
+border-width:0;
+text-align: center;
+margin: 1em auto;
+}
+
+
+/*How*/
+.how {
+    padding: 100px 0;
+  }
+
+
+/*About US*/
+.bio-section {
+    padding: 100px 0px;
+}
+
+#bio h1, #bio h2, #bio h3, #bio h4, #bio h5, #bio p {
+  color: rgb(255, 255, 255);
+}
+
+.section-dark {
+    background-color: rgb(26, 24, 23);
+    color: rgb(255, 255, 255);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.team-player .img-circle, .team-player .img-thumbnail {
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 120px;
+    height: 120px;
+}
+
+.img-circle {
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    padding: 4px;
+    border-radius: 50%;
+}
+
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+img {
+    vertical-align: middle;
+}
+
+img {
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+}
+
+
+
+/*Projects*/
+
+#projects{
+  color: #000000;
+}
+
+/* Skills */
+#skills {
+	background-color: #4e4e4e;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-top: 50px;
+}
+
+#skills h3 {
+	color: white;
+}
+
+#skills p {
+	color: white;
+	font-weight: 400;
+}
+
+/* Social Links */
+#social {
+	width: 100%;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.social i {
+	font-size: 28px;
+	color: #000000;
+}
+
+.social i:hover {
+	color: rgb(105,225,235);
+}
+
+#social .col-md-3 {
+	padding:30px;
+}
+
+/* Footer */
+#f {
+	padding-top: 20px;
+}
+
+#f p {
+	color: ;
+	text-align: right;
+	font-weight: 400;
+}
+
+/* Image Opacity */
+.grid img {
+    opacity: .7;
+}
+.grid img:hover {
+    opacity: 1;
+}
